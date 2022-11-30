@@ -7,6 +7,19 @@ app_description = "It is a Demo app"
 app_email = "roma@gmail.com"
 app_license = "MIT"
 
+fixtures=[ 
+		{"dt":"Custom Field",
+			"filters":[
+			[
+			"name","in",[
+				"Customer-customer_location",
+				"Customer-customer_mobile_no"
+			]
+			]
+			]
+		}
+  ]
+
 # Includes in <head>
 # ------------------
 
