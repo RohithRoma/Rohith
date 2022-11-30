@@ -13,7 +13,10 @@ fixtures=[
 			[
 			"name","in",[
 				"Customer-customer_location",
-				"Customer-customer_mobile_no"
+				"Customer-customer_mobile_no",
+				"Customer-customer_mail_id",
+				"Customer-customer_signature",
+				"Customer-customer_image"
 			]
 			]
 			]
